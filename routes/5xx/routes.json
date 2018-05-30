@@ -1,0 +1,56 @@
+{
+	"500": {
+		"name": "Internal Server Error",
+		"description": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable."
+	},
+
+	"501": {
+		"name": "Not Implemented",
+		"description": "The server either does not recognize the request method, or it lacks the ability to fulfil the request. Usually this implies future availability (e.g., a new feature of a web-service API)."
+	},
+
+	"502": {
+		"name": "Bad Gateway",
+		"description": "The server was acting as a gateway or proxy and received an invalid response from the upstream server."
+	},
+
+	"503": {
+		"name": "Service Unavailable",
+		"description": "The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state."
+	},
+	
+	"504": {
+		"name": "Gateway Timeout",
+		"description": "The server was acting as a gateway or proxy and did not receive a timely response from the upstream server."
+	},
+	
+	"505": {
+		"name": "HTTP Version Not Supported",
+		"description": "The server does not support the HTTP protocol version used in the request."
+	},
+	
+	"506": {
+		"name": "Variant Also Negotiates",
+		"description": "Transparent content negotiation for the request results in a circular reference."
+	},
+
+	"507": {
+		"name": "Insufficient Storage",
+		"description": "The server is unable to store the representation needed to complete the request."
+	},
+
+	"508": {
+		"name": "Loop Detected",
+		"description": "The server detected an infinite loop while processing the request (sent in lieu of 208 Already Reported)."
+	},
+
+	"510": {
+		"name": "Not Extended",
+		"description": "Further extensions to the request are required for the server to fulfil it."
+	},
+
+	"511": {
+		"name": "Network Authentication Required",
+		"description": "The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., \"captive portals\" used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot)."
+	}
+}

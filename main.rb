@@ -22,7 +22,7 @@ statusCodes.each {
 	|statusCode, properties|
 	get "/#{statusCode}" do
 		content_type :json
-		{ name: "#{properties['name']}", description: "#{properties['description']}" }.to_json
+		{ statusCode: "#{statusCode}", name: "#{properties['name']}", description: "#{properties['description']}" }.to_json
 	end
 }
 

@@ -83,3 +83,9 @@ get "/5xx" do
 	end
 	{ routes: "#{routes5xx}" }.to_json
 end
+
+# Root route
+get "/" do
+	content_type :json
+	{ info: "No route has been configured for /. For lists of 1xx, 2xx, 3xx, 4xx or 5xx routes, please refer to the following routes: /1xx, /2xx, /3xx, /4xx, /5xx" }.to_json
+end

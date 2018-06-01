@@ -4,4 +4,4 @@ Basic JSON RESTful API I have built with Sinatra to fetch information on any giv
 
 # Heroku
 
-The API is now available at https://lit-meadow-22475.herokuapp.com
+The API is now available at https://status-codes-api.herokuapp.com
